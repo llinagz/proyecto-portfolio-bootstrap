@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Javier Llinares">
+    <meta name="description" content="Portfolio de desarrollo web">
+    <meta name="keywords" content="HTML, CSS, Javascript, Bootstrap">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Javier Llinares</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon-portfolio.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="./images/favicon-portfolio.png" width="50" alt="Icono de la web" srcset="">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi-id">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos-id">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonios-id">Testimonios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactos-id">Contactos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-principal-photo-profile" src="./images/profile-pic-javi.PNG" alt="Foto de Javi Llinares">
+        <h1>Hola, soy Javi Llinares</h1>
+        <h2>Desarrollo sitios web y escribo artículos en mi blog</h2>
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="./images/hero-inferior.svg" alt="Monitor, laptop, con logos de programación">
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion "Sobre mi" -->
+    <section id="sobre-mi-id" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">¿Tomamos un café?</h2>
+        <p class="seccion-texto">Tengo 32 primaveras y cada vez más preguntas sin respuestas, lo que me indica que voy por el buen camino. Desde pequeñito siempre he dado la tabarra con que quiero vivir diferente a lo que la sociedad dictamina. Aquí no hay trampa ni cartón, actualmente trabajo en una empresa de desarrollo como programador, pero antes he currado en una empresa de arquitectura y también de videojuegos… ¡ah, y soy Licenciado en Historia!. Ya, ya, un buen pastiche. Pero SIEMPRE se puede cambiar de rumbo. Actualmente compagino mi trabajo de programador con mi proyecto personal.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia sección-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo web</p>
+            <p>Internet abruma, lo sé. Te ahorro tiempo y te muestro los mejores cracks de los que aprender. Cursos a buen precio y un montón de material de calidad.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">Javascript</span>
+              <span class="badge text-bg-primary">React</span>
+              <span class="badge text-bg-primary">.NET</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Articulos</p>
+            <p>Hablo de las frikadas que me gustan y os ayudaré a encontrar vuestro camino como voy cada día intentándolo hacer yo. También para crear comunidad de gente inconformista.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+          </div>
+          <!-- Estudiantes -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Me mantengo siempre actualizado y en constante aprendizaje. Me encanta trastear con las nuevas tecnologías y me gusta formarme para ser un Fullstack developer.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Desarrollo web</span>
+              <span class="badge text-bg-primary">Frontend Developer</span>
+              <span class="badge text-bg-primary">Backend Developer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos-id" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente</h3>
+      <!-- Galeria de proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/llinagz" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://javierllinares.eu/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/llinagz" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://javierllinares.eu/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto3.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/llinagz" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://javierllinares.eu/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/llinagz" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://javierllinares.eu/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/llinagz" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://javierllinares.eu/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="./images/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/llinagz" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://javierllinares.eu/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/llinagz" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-center">
+      <h2 class="seccion-titulo">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Anidamiento de bucles For en JS
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Formularios HTML
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Anidamiento de bucles For en JS
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Metodo POST de Ajax jQuery
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Aprende Git y GitHub
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Cómo empezar MongoDB en 10 minutos
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.freecodecamp.org/espanol/news" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios-id" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes:</h3>
+      <!-- Carrusel -->
+      <div id="testimonio-carrusel" class="carousel carousel-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="./images/cliente1.svg" alt="Cliente Jihn">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet semper arcu. Phasellus sodales finibus dui, nec pellentesque neque accumsan quis. Donec volutpat eget felis sit amet ullamcorper.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyectos en SoftSoftware</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="./images/cliente2.svg" alt="Cliente Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet semper arcu. Phasellus sodales finibus dui, nec pellentesque neque accumsan quis. Donec volutpat eget felis sit amet ullamcorper.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de DiseñaMiPaginaWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="./images/cliente3.svg" alt="Cliente Leo">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet semper arcu. Phasellus sodales finibus dui, nec pellentesque neque accumsan quis. Donec volutpat eget felis sit amet ullamcorper.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leo</p>
+                <p class="cargo">CEO de AprendeAProgramar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonio-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonio-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contactos-id" class="contacto seccion-oscura"> 
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 description">
+              Contactame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:javierllinaresbarral@outlook.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="images/favicon-portfolio.png" alt="Icono de la pagina web">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter.com/llina_gz" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/llinagz" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="mailto:javierllinaresbarral@outlook.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope-at-fill"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Javi Llinares (2023) &#169;</div>
+    </footer>
+
+
+    <!-- Bootstrap con JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
