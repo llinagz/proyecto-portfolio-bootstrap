@@ -419,6 +419,11 @@ footer{
     .navbar-brand{
         display: none;
     }
+    
+    .hero-principal-photo-profile{
+    width: 30%;
+    height: 30%;
+    }
 }
 
 @media screen and (max-width: 800px){
